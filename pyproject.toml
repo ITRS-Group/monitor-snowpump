@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "snowpump"
+version = "0.0.1"
+description = "Create OP5 Monitor hosts from ServiceNow CMDB objects"
+authors = ["Robert Wikman <rwikman@op5.com>"]
+license = "GPL-2.0"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+pysnow = "^0.7.9"
+tqdm = "^4.35.0"
+marshmallow = { version = "3.0.0rc9", allows-prereleases = true }
+
+[tool.poetry.dev-dependencies]
+twine = "^1.13"
+pytest = "^4.4.0"
+pytest-cov = "^2.7.1"
+codecov = "^2.0.15"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
