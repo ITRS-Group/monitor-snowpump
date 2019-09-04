@@ -1,0 +1,18 @@
+[monitor]
+host = "op5-monitor.example.com"
+username = ""
+password = ""
+ssl_verify = true
+
+[servicenow]
+instance = ""
+username = ""
+password = ""
+
+[mappings.linux]
+    table = "cmdb_ci_linux_server"
+    hostgroup = "Linux servers"
+
+[mappings.windows]
+    table = "cmdb_ci_win_server"
+    hostgroup = "Windows servers"
