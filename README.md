@@ -10,6 +10,8 @@ About
 
 Provides a dead-simple, safe and configurable way of creating OP5 Monitor hosts from ServiceNow CMDB objects.
 
+Built during the ITRS Exploration Days in 2019.
+
 Compatibility
 ---
 
